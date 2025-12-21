@@ -84,8 +84,6 @@ void mainMenu()
             continue;
         }
 
-        choice = choiceStr[0] - '0';  
-
         if (choice == 1)
             signUp();
         else if (choice == 2)
