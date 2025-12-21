@@ -69,13 +69,22 @@ void mainMenu()
         cout << " ____) |   | |   ____) |   | |   | |____ | |  | |\n";
         cout << "|_____/    |_|  |_____/    |_|   |______||_|  |_|\n";
 
-        cout << "\n\n\n1. Sign Up\n";
+        cout << "1. Sign Up\n";
         cout << "2. Sign In\n";
         cout << "3. Exit\n";
         cout << "Enter choice: ";
 
         getline(cin, choiceStr);
-        choice = choiceStr[0] - '0';
+
+        if (choiceStr[0] < '1' || choiceStr[0] > '3' || countChars(choiceStr) > 1)
+        {
+            cout << "Invalid input. Press Enter to continue...";
+            string t;
+            getline(cin, t);
+            continue;
+        }
+
+        choice = choiceStr[0] - '0';  
 
         if (choice == 1)
             signUp();
@@ -83,12 +92,6 @@ void mainMenu()
             signIn();
         else if (choice == 3)
             break;
-        else
-        {
-            cout << "Invalid choice.\n";
-            cout << "Press Enter to continue...";
-            string t;
-            getline(cin, t);
         }
     }
 }
