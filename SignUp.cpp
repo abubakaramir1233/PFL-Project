@@ -120,7 +120,13 @@ void staffMenu()
     cout << "------------------------------------------------------------\n";
     cout << "                     STAFF MENU\n";
     cout << "------------------------------------------------------------\n";
-    cout << "1. Search Patient\n2. Display All\n3. Sort by Age\n4. Bill Calculator\n5. Logout\nChoice: ";
+    cout << "1. View Patients\n";
+    cout << "2. Search Patient\n";
+    cout << "3. Bill Calculator\n";
+    cout << "4. Medicine Cost\n";
+    cout << "5. Recommend Doctor\n";
+    cout << "6. Logout\n";
+
 
     string t;
     getline(cin, t);
