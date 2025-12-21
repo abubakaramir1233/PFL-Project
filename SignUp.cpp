@@ -1,15 +1,16 @@
 #include <iostream>
 #include <string>
 using namespace std;
-// Users
+//========== Users ========
 const int MAX_USERS = 50;
 
 string usernames[MAX_USERS];
 string passwords[MAX_USERS];
 string roles[MAX_USERS];
 int userCount = 0;
-// patients
 
+
+// ========= patients ========
 const int MAX_PATIENTS = 100;
 
 string patientName[MAX_PATIENTS];
