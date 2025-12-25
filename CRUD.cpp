@@ -37,7 +37,7 @@ int main()
 
     while (true)
     {
-        system("clear");
+        system("cls");
         printHeader();
 
         cout << "\n\n1. Admin\n\n2. Staff\n\n3. Patient\n\n4. Exit\n\nChoice: ";
@@ -154,7 +154,7 @@ void initializeUsers()
 
 void signUpPatient()
 {
-    system("clear");
+    system("cls");
     printHeader();
     string username, password, fullname, phone, cnic;
 
@@ -213,7 +213,7 @@ void signUpPatient()
 
 bool signInPatient(string &username)
 {
-    system("clear");
+    system("cls");
     printHeader();
     string password;
     cout << "Patient Sign-In\nUsername: ";
@@ -242,7 +242,7 @@ void patientMenu(const string &username)
 {
     while (true)
     {
-        system("clear");
+        system("cls");
         printHeader();
         cout << "------------------------------------------------------------\n";
         cout << "                    --- Patient Menu ---\n";
@@ -279,7 +279,7 @@ void adminMenu()
 {
     while (true)
     {
-        system("clear");
+        system("cls");
         printHeader();
         cout << "------------------------------------------------------------\n";
         cout << "                     ADMIN MENU\n";
@@ -307,7 +307,7 @@ void staffMenu()
 {
     while (true)
     {
-        system("clear");
+        system("cls");
         printHeader();
         cout << "------------------------------------------------------------\n";
         cout << "                     STAFF MENU\n";
@@ -328,7 +328,7 @@ void staffMenu()
 //                                          ( CRUD FUNCTIONS )
 void addPatient()
 {
-    system("clear");
+    system("cls");
     printHeader();
 
     cout << "------------------------------------------------------------\n";
@@ -412,7 +412,7 @@ void addPatient()
 
 void viewAllPatients()
 {
-    system("clear");
+    system("cls");
     printHeader();
     cout << "------------------------------------------------------------\n";
     cout << "                  --- All Patients ---\n";
@@ -430,7 +430,7 @@ void viewAllPatients()
 
 void updatePatient()
 {
-    system("clear");
+    system("cls");
     printHeader();
 
     cout << "------------------------------------------------------------\n";
@@ -527,7 +527,7 @@ void updatePatient()
 }
 void deletePatient()
 {
-    system("clear");
+    system("cls");
     printHeader();
     cout << "------------------------------------------------------------\n";
     cout << "              --- Delete Patient ---\n";
@@ -571,7 +571,7 @@ void deletePatient()
 }
 void adminLoginController()
 {
-    system("clear");
+    system("cls");
     printHeader();
 
     string username, password;
@@ -607,7 +607,7 @@ void adminLoginController()
 }
 void staffLoginController()
 {
-    system("clear");
+    system("cls");
     printHeader();
 
     string username, password;
@@ -643,7 +643,7 @@ void staffLoginController()
 }
 void patientController()
 {
-    system("clear");
+    system("cls");
     printHeader();
 
     string choice, username;
