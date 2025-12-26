@@ -428,6 +428,11 @@ void pharmacistMenu()
             deleteMedicine();
         else if (choice == "5")
             return;
+        else
+           {
+        cout << "\n INVALID CHOICE";
+        waitForKey();
+           }
     }
 }
 void addMedicine()
@@ -647,6 +652,11 @@ void adminMenu()
             deletePatient();
         else if (choice == "5")
             return;
+        else
+        {
+            cout << "\nINVALID CHOICE";
+            waitForKey();
+        }
     }
 }
 
@@ -907,6 +917,11 @@ void staffMenu()
             viewAllPatients();
         else if (choice == "2")
             return;
+            else 
+            {
+                cout<<"\nINVALID CHOICE";
+                waitForKey();
+            }
     }
 }
 //                                                                            (PATIENT MENU)
@@ -943,5 +958,9 @@ void patientMenu(const string &username)
         }
         else if (choice == "2")
             return;
+            else{
+                cout<<"\nINVALID CHOICE";
+                waitForKey();
+            }
     }
 }
