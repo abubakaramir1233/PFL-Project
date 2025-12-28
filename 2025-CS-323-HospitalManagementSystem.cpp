@@ -1,6 +1,6 @@
-//   CREDENTIALS FOR SIGN UP  ADMIN=admin admin123  (CRUD)
-//                           PHARMACIST =pharmacist pharma123 (CRUD)
-// STAFF=staff staff123
+//   CREDENTIALS FOR SIGN UP  | ADMIN=admin admin123  (CRUD)
+//                            | PHARMACIST =pharmacist pharma123 (CRUD)
+//                            | STAFF=staff staff123
 
 // sign up is only for patients
 #include <iostream>
